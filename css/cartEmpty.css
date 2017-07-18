@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #E0E0E0;
+	font-family: "sans-serif";
+}
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+ul li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+textarea {  -webkit-appearance: none;}  
+input[type="button"]{ border-radius: 0; } 
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+input{
+	outline: none;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font-size: 4vw;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	font-size: 4vw;
+}
+input:-ms-input-placeholder{
+	font-size: 4vw;
+}
+input::-webkit-input-placeholder{
+	font-size: 4vw;
+}
+/*头部*/
+.top_cartEmpty{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	border-bottom: 1px solid #CBCBCF;	
+}
+.top_cartEmpty ul{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+}
+.top_cartEmpty ul li{
+	float: left;
+}
+.back_cartEmpty,.menu_cartEmpty{
+	width: 10%;
+	text-align: center;
+}
+.back_cartEmpty img,.menu_cartEmpty img{
+	width:60%;
+}
+.top_cartEmpty_title{
+	width: 80%;
+	text-align: center;
+	font-size: 4vw;
+}
+/*头部结束*/
+/*隐藏部分*/
+
+.hide_user{
+	width: 60%;
+	float: right;
+	background: #F1F1F1;
+	border-radius: 12px;
+	position: relative;
+	z-index: 11;
+	margin-top: -4%;
+}
+.hide_user ul{
+	width: 100%;
+}
+.hide_user ul>li{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #DCDCDE;
+}
+.hide_user ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	font-size: 4vw;
+}
+/*登录后*/
+.first_after{
+	height: 80px !important;
+	line-height: 80px !important;
+}
+.first_after ul{
+	width: 100%;
+	margin:0 auto;
+}
+.first_after ul>li{
+	width: 50%;
+	float: left;
+	height: 80px !important;
+	line-height: 80px !important;
+}
+.first_after ul>li img{
+	width: 60px;
+	margin-top: 10px;
+}
+.last{
+	border: none !important;
+}
+/*中间内容*/
+.content{
+	width: 100%;
+	margin: 1% auto;
+	height: auto;
+	position: absolute;
+	top: 40px;
+}
+.empty_goods{
+	width: 50%;
+	margin: 0 auto;
+	padding: 32% 0;
+	text-align: center;
+}
+.btn_cartEmpty{
+	width: 88%;
+	margin: 0 6%;
+	background: #E90000;
+	color: #fff;
+	font-size: 4vw;
+	border:0;
+	border-radius: 5px;
+	outline: none;
+	height: 2.5em;
+}
+/*中间内容结束*/
+/*分享*/
+.hide_share{
+	width: 100%;
+	background: #FAFAFA;
+	border-radius: 12px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	z-index: 11;
+}
+.hide_share ul li{
+	width: 25%;
+	float: left;
+}
+/*底部开始*/
+.foot{
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 11;
+}
+.foot ul li{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	background: #F5F5F5;
+	color: #aaa;
+	padding: 2% 0;
+}
+.foot ul li div{
+	font-size: 3vw;
+}
+/*底部结束*/

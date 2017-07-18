@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/cart.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_cart">
+			<ul>			
+				<li class="back_cart"><img src="images/icon_back.png" alt=""></li>
+				<li class="back_cart"><img src="images/icon_exit.png" alt=""></li>
+				<li class="top_cart_title">购物车</li>
+				<li class="menu_cart"><img src="images/icon_choose.png" alt="" id="user"></li>
+			</ul>
+			<div class="hide_user">
+				<ul>
+					<!-- 隐藏部分 登录之后 -->
+					<li class="first_after">
+						<ul>
+							<li><img src="images/not_logget.png" alt=""></li>
+							<li>nickname</li>
+						</ul>
+						</li>
+					<li><a href="userManagement.html">我的账号</a></li>
+					<li><a href="addressManagement.html">地址管理</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li id="share">分享店铺</li>
+					<li class="last"><a href="">收藏店铺</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 中间内容 -->
+		<div class="content">
+			<div class="list_cart">
+				<ul>				
+					<li class="img_cart">
+						<img src="images/pic_011.jpg" alt="">
+						<input type="checkbox" class="check goods-check shopCheck">
+					</li>
+					<li class="cart_listDetail">
+						<ul>
+							<!-- 上 -->
+							<li class="one_cart">
+								<ul>
+									<li class="one_cart_first">
+										<ul>
+											<li>[小米]防雾霾口罩</li>
+											<li>型号/规格/SKU</li>
+										</ul>
+									</li>
+									<li class="one_cart_second">
+										<img src="images/icon_exit.png" alt="">
+									</li>
+									
+								</ul>
+							</li>
+							<!-- 下 -->
+							<li class="two_cart">
+								<ul>
+									<li class="two_cart_first">$100.89<span>（原价 ￥120.00）</span></li>
+									<li class="two_cart_second">
+										<a href="javascript:;" class="plus">+</a>
+										<span class="num" >1</span>
+										<a href="javascript:;" class="minus">-</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="list_cart">
+				<ul>				
+					<li class="img_cart">
+						<img src="images/pic_011.jpg" alt="">
+						<input type="checkbox" checked="checked" class="check goods-check shopCheck">
+					</li>
+					<li class="cart_listDetail">
+						<ul>
+							<!-- 上 -->
+							<li class="one_cart">
+								<ul>
+									<li class="one_cart_first">
+										<ul>
+											<li>[小米]防雾霾口罩</li>
+											<li>型号/规格/SKU</li>
+										</ul>
+									</li>
+									<li class="one_cart_second">
+										<img src="images/icon_exit.png" alt="">
+									</li>									
+								</ul>
+							</li>
+							<!-- 下 -->
+							<li class="two_cart">
+								<ul>
+									<li class="two_cart_first">$100.89<span>（原价 ￥120.00）</span></li>
+									<li class="two_cart_second">
+										<a href="javascript:;" class="plus">+</a>
+										<span class="num" >1</span>
+										<a href="javascript:;" class="minus">-</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="foot">
+			<div class="payment-bar">
+				<div class="all-checkbox">
+					<input type="checkbox" style="top:28%;" class="check goods-check" id="AllCheck">
+					<span>全选</span>
+				</div>				
+				<a href="orderEmpty.html" class="settlement">结算</a>
+				<div class="cart_total">
+					合计：<span>$500.00</span>
+				</div>
+			</div>
+		</div>
+		<!-- 点击显示分享 -->
+		<div class="hide_share">
+			<ul>
+				<li><img src="images/wechat.png" alt=""></li>
+				<li><img src="images/3.png" alt=""></li>
+				<li><img src="images/4.png" alt=""></li>
+				<li><img src="images/5.png" alt=""></li>
+				<li><img src="images/6.png" alt=""></li>
+				<li><img src="images/1.png" alt=""></li>
+				<li><img src="images/2.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

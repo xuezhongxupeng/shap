@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_index">
+			<ul>			
+				<li class="back_index"><img src="images/icon_back1.png" alt=""></li>
+				<li class="top_index_title">XX店铺名称</li>
+				<li class="menu_index"><img src="images/icon_choose.png" alt="" id="user"></li>
+			</ul>
+			<div class="hide_user">
+				<ul>
+
+					<!-- 隐藏部分 未登录用户时 -->
+					<li class="first">
+						<ul>
+							<li><a href="login.html">登录</a></li>
+							<li>/</li>
+							<li><a href="register.html">注册</a></li>
+						</ul>
+					</li>
+
+					<!-- 隐藏部分 登录之后 -->
+					<li class="first_after">
+						<ul>
+							<li><img src="images/not_logget.png" alt=""></li>
+							<li>nickname</li>
+						</ul>
+					</li>
+					<li><a href="userManagement.html">我的账号</a></li>
+					<li><a href="addressManagement.html">地址管理</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li id="share">分享店铺</li>
+					<li class="last"><a href="">收藏店铺</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 中间内容 -->
+		<div class="content">
+			<div class="title_index">
+				<ul>
+					<li class="title_active"><a href="index.html">首页</a></li>
+					<li><a href="newGoods.html">最新</a></li>
+					<li><a href="hotGoods.html">最热</a></li>
+				</ul>
+			</div>	
+			<!-- 轮播图 -->
+			<div class="mainpic">
+		    	<ul class="pics">
+		        	<li><a href=""><img src="images/banner_01.png"></a></li>
+		            <li><a href=""><img src="images/banner_02.png"></a></li>
+		            <li><a href=""><img src="images/banner_03.png"></a></li>
+		            <li><a href=""><img src="images/banner_01.png"></a></li>
+		            <li><a href=""><img src="images/banner_02.png"></a></li>
+		        </ul>
+		        <ul class="nums">
+		        	<li></li>
+		        	<li></li>
+		        	<li></li>
+		        	<li></li>
+		        	<li></li>
+		        </ul>		        
+		    </div>		   
+		    <!-- 商品分类 -->
+		    <div class="goods_index">
+		    	<ul>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    		<li><a href="classify.html"><img src="images/pic.png" alt=""><div>情人热恋</div></a></li>
+		    	</ul>
+		    </div>
+		    <!-- 最热 -->
+		    <div class="hot_index">
+		    	<div class="hot_title_index">
+		    		<div class="hot_content_index">
+		    			HOT
+		    		</div>
+		    		<div class="new_index">
+		    			最热商品
+		    			<span class="more_index"><a href="hotGoods.html">More</a></span>
+		    		</div>
+		    	</div>
+		    	<div class="pic_hot_index">
+		    		<ul>
+		    			<li>
+		    				<img src="images/pic_01.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    			<li>
+		    				<img src="images/pic_02.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    			<li>
+		    				<img src="images/pic_01.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    			<li>
+		    				<img src="images/pic_02.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    <!-- 新品上市 -->
+		    <div style="clear:both;height:3em;"></div>
+		     <div class="hot_index">
+		    	<div class="hot_title_index">
+		    		<div class="new_goods">
+		    			New Arrivals
+		    		</div>
+		    		<div class="new_index">
+		    			新品上市
+		    			<span class="more_index"><a href="newGoods.html">More</a></span>
+		    		</div>
+		    	</div>
+		    	<div class="pic_hot_index">
+		    		<ul>
+		    			<li>
+		    				<img src="images/pic_01.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    			<li>
+		    				<img src="images/pic_02.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    			<li>
+		    				<img src="images/pic_01.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    			<li>
+		    				<img src="images/pic_02.png" alt="">
+		    				<p>[小米]防雾霾口罩</p>
+		    				<p>$100.89</p>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    </div>
+		     <div style="clear:both;height:5em;"></div>
+		</div>
+		<!-- 点击显示分享 -->
+		<div class="hide_share">
+			<ul>
+				<li><img src="images/wechat.png" alt=""></li>
+				<li><img src="images/3.png" alt=""></li>
+				<li><img src="images/4.png" alt=""></li>
+				<li><img src="images/5.png" alt=""></li>
+				<li><img src="images/6.png" alt=""></li>
+				<li><img src="images/1.png" alt=""></li>
+				<li><img src="images/2.png" alt=""></li>
+			</ul>
+		</div>
+		<!-- 底部 -->
+		<div class="foot">
+			<ul>
+				<li class="foot_first"><img src="images/tab_icon_home_nor.png" alt=""><div>首页</div></li>
+				<li class="foot_second"><img src="images/tab_icon_list_nor.png" alt=""><div>订单</div></li>
+				<li class="foot_third"><img src="images/tab_icon_shop_nor.png" alt=""><div>购物车</div></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

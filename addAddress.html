@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>添加地址</title>
+	<link rel="stylesheet" href="css/addAddress.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_addAddress">
+			<ul>			
+				<li class="back_addAddress"><img src="images/icon_back.png" alt=""></li>
+				<li class="back_addAddress"><img src="images/icon_exit.png" alt=""></li>
+				<li class="top_addAddress_title">添加地址</li>
+				<li class="menu_addAddress"><img src="images/icon_choose.png" alt="" id="user"></li>
+			</ul>
+			<div class="hide_user">
+				<ul>
+					<!-- 隐藏部分 登录之后 -->
+					<li class="first_after">
+						<ul>
+							<li><img src="images/not_logget.png" alt=""></li>
+							<li>nickname</li>
+						</ul>
+					</li>
+					<li><a href="userManagement.html">我的账号</a></li>
+					<li><a href="addressManagement.html">地址管理</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li id="share">分享店铺</li>
+					<li class="last"><a href="">收藏店铺</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 中间内容 -->
+		<div class="content">
+			<!-- 表单 -->
+			<form action="" method="get" class="form_info">
+				<ul>
+					<li><input type="text" placeholder="收货人姓名"></li>
+					<li class="form_passwprd"><input type="text" placeholder="电话号码"></li>
+					
+					<li>地址</li>
+						
+					<li class="select_city">
+						<select name="" id="">
+							<option value="城市">城市</option>
+							<option value="石家庄">石家庄</option>
+						</select>
+					</li>	
+					<li class="select_city">
+						<select name="" id="">
+							<option value="省/州">省/州</option>
+							<option value="河北省">河北省</option>
+						</select>
+					</li>
+					<li class="select_city">
+						<select name="" id="">
+							<option value="国家">国家</option>
+							<option value="中国">中国</option>
+						</select>
+					</li>
+					<li class="select_city"><input type="number" placeholder="邮编"></li>		
+				</ul>	
+				<div class="default_box">
+			    	<input type="checkbox" checked><span>√</span>		          
+		        </div>
+		        <div class="default_address">设为默认</div>		
+		        <input type="button" value="取消" class="exit_addAddress">
+		        <input type="button" value="保存地址" class="save_addAddress">	
+			</form>
+			<div style="height:2em;clear:both;"></div>
+		</div>
+		<!-- 底部 -->
+		<div class="foot_addAddress">
+			
+		</div>
+		<!-- 点击显示分享 -->
+		<div class="hide_share">
+			<ul>
+				<li><img src="images/wechat.png" alt=""></li>
+				<li><img src="images/3.png" alt=""></li>
+				<li><img src="images/4.png" alt=""></li>
+				<li><img src="images/5.png" alt=""></li>
+				<li><img src="images/6.png" alt=""></li>
+				<li><img src="images/1.png" alt=""></li>
+				<li><img src="images/2.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+<div class="shade_weChatAllowed" style="display:none;"></div>
+<div class="layer_weChatAllowed" style="display:none;">
+	<div class="con_weChatAllowed">
+		"XX店铺名称商"想要获取您的<br/>
+		相册授权
+	</div>
+	<form action="" method="">		
+		<input type="button" value="Cancel" class="refuse_weChatAllowed">
+		<input type="button" value="Open" class="error_weChatAllowed">
+	</form>
+</div>
+</body>
+</html>

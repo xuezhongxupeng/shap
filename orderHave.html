@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>订单结算_有地址</title>
+	<link rel="stylesheet" href="css/orderHave.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_orderHave">
+			<ul>			
+				<li class="back_orderHave"><img src="images/icon_back.png" alt=""></li>
+				<li class="back_orderHave"><img src="images/icon_exit.png" alt=""></li>
+				<li class="top_orderHave_title">订单详情</li>
+				<li class="menu_orderHave"><img src="images/icon_choose.png" alt="" id="user"></li>
+			</ul>
+			<div class="hide_user">
+				<ul>
+					<!-- 隐藏部分 登录之后 -->
+					<li class="first_after">
+						<ul>
+							<li><img src="images/not_logget.png" alt=""></li>
+							<li>nickname</li>
+						</ul>
+						</li>
+					<li><a href="userManagement.html">我的账号</a></li>
+					<li><a href="addressManagement.html">地址管理</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li id="share">分享店铺</li>
+					<li class="last"><a href="">收藏店铺</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 地址列表 -->
+		<div class="address_list">
+			<a href="javascript:(0)">地址列表</a>
+		</div>
+		<div class="person_address">
+				<div class="address_content">
+					<ul>
+						<li class="img_address"><img src="images/location.png" alt=""></li>
+						<li class="info_address">
+							<ul>
+								<li>XXX zhao</li>
+								<li>中山路长兴街12号，西王小区东三排，四单元</li>
+							</ul>
+						</li>
+						<li class="tel_address">18829389283</li>
+					</ul>				
+				</div>
+				<div class="operate_address">					
+					<form action="">
+						<a href="editAddress.html"><input type="button" value="修改" class="delete_address"></a>
+						<input type="button" value="重选" class="edit_address" id="reChoose">
+					</form>
+				</div>
+			</div>
+		<div style="height:0.7em;"></div>
+		<!-- 中间内容 -->
+		<div class="content">
+			<div class="list_orderHave">
+				<ul>				
+					<li class="img_orderHave">
+						<img src="images/pic_011.jpg" alt="">
+					</li>
+					<li class="orderHave_listDetail">
+						<ul>
+							<!-- 上 -->
+							<li class="one_orderHave">
+								<ul>
+									<li class="one_orderHave_first">
+										<ul>
+											<li>[小米]防雾霾口罩</li>
+											<li class="special_order">型号/规格/SKU</li>
+										</ul>
+									</li>
+									<li class="one_orderHave_second">
+										$100.89
+									</li>
+									
+								</ul>
+							</li>
+							<!-- 下 -->
+							<li class="two_orderHave">
+								
+								<span class="num" >1</span>
+						
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="list_orderHave">
+				<ul>				
+					<li class="img_orderHave">
+						<img src="images/pic_011.jpg" alt="">
+					</li>
+					<li class="orderHave_listDetail">
+						<ul>
+							<!-- 上 -->
+							<li class="one_orderHave">
+								<ul>
+									<li class="one_orderHave_first">
+										<ul>
+											<li>[小米]防雾霾口罩</li>
+											<li class="special_order">型号/规格/SKU</li>
+										</ul>
+									</li>
+									<li class="one_orderHave_second">
+										$100.89
+									</li>
+									
+								</ul>
+							</li>
+							<!-- 下 -->
+							<li class="two_orderHave">								
+								<span class="num" >3</span>						
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		<div class="foot_top">
+			<ul>
+				<li>
+					<a href="payment.html">
+						<div>支付方式</div>
+						<span>
+							<img src="images/pay.png" alt="">
+						</span>
+					</a>
+				</li>
+				<li><div>总价</div><span>$504.45</span></li>
+			</ul>
+		</div>
+
+		<div style="height:5em;"></div>
+		<!-- 底部 -->
+		<div class="foot">			
+			<div class="payment-bar">							
+				<a href="" class="settlement">支付订单</a>
+				<div class="orderHave_total">
+					实收款：<span>$504.45</span>
+				</div>
+			</div>
+		</div>
+		<!-- 点击显示分享 -->
+		<div class="hide_share">
+			<ul>
+				<li><img src="images/wechat.png" alt=""></li>
+				<li><img src="images/3.png" alt=""></li>
+				<li><img src="images/4.png" alt=""></li>
+				<li><img src="images/5.png" alt=""></li>
+				<li><img src="images/6.png" alt=""></li>
+				<li><img src="images/1.png" alt=""></li>
+				<li><img src="images/2.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 点击重选地址 -->
+	<div class="shade_orderHave"></div>
+	<div class="address_choose">		
+		<ul>
+			<li class="info_address_choose">
+				<ul>
+					<li>收货人：hong zhao</li>
+					<li>收货地址：XXXX CorporTor Center Dr, Ste 310 Monterey Park, CA 91754</li>
+				</ul>
+			</li>
+			<li class="tel_address_choose">18829389283</li>
+		</ul>	
+		<ul>
+			<li class="info_address_choose">
+				<ul>
+					<li>收货人：hong zhao</li>
+					<li>收货地址：XXXX CorporTor Center Dr, Ste 310 Monterey Park, CA 91754</li>
+				</ul>
+			</li>
+			<li class="tel_address_choose">18829389283</li>
+		</ul>	
+	</div>
+</body>
+</html>

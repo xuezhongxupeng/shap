@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>重置密码</title>
+	<link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_reset">
+			<ul>			
+				<li class="back_reset"><img src="images/icon_back.png" alt=""></li>
+				<li class="top_reset_title">重置密码</li>
+				<li class="menu_reset"><img src="images/icon_choose.png" alt=""></li>
+			</ul>
+		</div>
+		<!-- 中间内容 -->
+		<div class="content_reset">			
+			<!-- 表单 -->
+			<form action="" method="get" class="form_info">
+				<ul>
+					<li><div>验证码</div><input type="email" placeholder="请输入您收到的验证码"></li>
+					<li class="form_passwprd"><div>新密码</div><input type="password" placeholder="请输入您的密码"></li>
+					<li class="form_passwprd"><div>确认密码</div><input type="password" placeholder="请输入您的密码"></li>
+				</ul>
+				<div class="agree_reset">
+					<input type="checkbox" value=""><div class="agree_text_reset">I'm not a robot</div>					
+				</div>
+				<div class="reset_reset"> 
+					<a href="login.html"><input type="button" value="提交重置密码"></a>
+				</div>
+			</form>		
+		</div>
+		<!-- 底部 -->
+		<div class="foot_reset">
+
+		</div>
+	</div>
+<!-- 输出错误时提示 -->
+<div class="shade_reset" style="display:none;"></div>
+<div class="layer_reset" style="display:none;">
+	<div class="con_reset">
+		:(<br/>
+		账号或密码错误
+	</div>
+	<form action="" method="">		
+		<input type="button" value="OK" class="error_reset">
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>商品详情</title>
+	<link rel="stylesheet" href="css/productBrand.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_productBrand">
+			<ul>			
+				<li class="back_productBrand"><img src="images/icon_back.png" alt=""></li>
+				<li class="top_productBrand_title">[小米]防雾霾口罩</li>
+				<li class="menu_productBrand"><img src="images/icon_choose.png" alt="" id="user"></li>
+			</ul>
+			<div class="hide_user">
+				<ul>
+					<!-- 隐藏部分 未登录用户时 -->
+					<li class="first">
+						<ul>
+							<li><a href="login.html">登录</a></li>
+							<li>/</li>
+							<li><a href="register.html">注册</a></li>
+						</ul>
+					</li>
+					<!-- 隐藏部分 登录之后 -->
+					<li class="first_after">
+						<ul>
+							<li><img src="images/not_logget.png" alt=""></li>
+							<li>nickname</li>
+						</ul>
+					</li>
+					<li><a href="userManagement.html">我的账号</a></li>
+					<li><a href="addressManagement.html">地址管理</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li id="share">分享店铺</li>
+					<li class="last"><a href="">收藏店铺</a></li>
+				</ul>
+			</div>
+		</div>		
+		<!-- 中间内容 -->
+		<div class="content">			
+			<!-- 轮播图 -->
+			<div class="mainpic">
+		    	<ul class="pics">
+		        	<li><a href=""><img src="images/banner_01.png"></a></li>
+		            <li><a href=""><img src="images/banner_02.png"></a></li>
+		            <li><a href=""><img src="images/banner_03.png"></a></li>
+		            <li><a href=""><img src="images/banner_01.png"></a></li>
+		            <li><a href=""><img src="images/banner_02.png"></a></li>
+		        </ul>
+		        <ul class="nums">
+		        	<li></li>
+		        	<li></li>
+		        	<li></li>
+		        	<li></li>
+		        	<li></li>
+		        </ul>		        
+		    </div>		   
+		  	<div class="content_title_productBrand">
+		  		<div class="title_one">[小米]<br>防雾霾口罩</div>
+		  		<div class="price_productDetials">
+		  			<ul>
+		  				<li><del>原价 ￥100.89</del></li>
+		  				<li>$100.89</li>
+		  			</ul>
+		  		</div>
+		  		<div class="surplus_productBrand">剩余18</div>
+		  	</div>
+		  	<img src="images/fh.png" alt="" class="fh">
+		  	<div class="title_content">
+		  		你好，新鲜空气
+		  	</div>
+		  	<div class="product_introduction">
+		  		一呼一吸间关系着生命的质量，雾霾之下，米家AirWear房屋面口罩不仅带来F95*的搞笑防护，有效阻挡空气中PM0.3以上的微粒，Pm2.5过滤效率高达99.97%，而它更像一键功能性的衣服，皮革质感的外套搭配全贴合内心，佩戴舒适，带来安全与快乐兼备的体验。
+		  	</div>
+		  	<div style="clear:both;height:0.7em;background:#E0E0E0;"></div>
+		  	<div class="tab_content_product">
+		  		<ul>
+		  			<li><a href="productDetails.html">细节描述</a></li>
+		  			<li><a href="productSpec.html">规格参数</a></li>
+		  			<li class="active"><a href="#">品牌描述</a></li>
+		  		</ul>
+		  	</div>
+		  	<div class="brand_content">
+		  		<ul>
+		  			<li><img src="images/logo_detail.png" alt=""></li>
+		  			<li>
+		  				<h4>AIRWEAR</h4>
+		  				<div>米家AirWear的房屋面口罩，双重立体防御结构/360º密封胶圈，过滤99.97%PM2.5颗粒物。轻薄、透气、层层净化，每一口呼吸都新鲜。</div>
+		  			</li>
+		  		</ul>
+		  	</div>
+		    <div style="clear:both;height:4em;"></div>
+		</div>
+		<!-- 点击显示分享 -->
+		<div class="hide_share">
+			<ul>
+				<li><img src="images/wechat.png" alt=""></li>
+				<li><img src="images/3.png" alt=""></li>
+				<li><img src="images/4.png" alt=""></li>
+				<li><img src="images/5.png" alt=""></li>
+				<li><img src="images/6.png" alt=""></li>
+				<li><img src="images/1.png" alt=""></li>
+				<li><img src="images/2.png" alt=""></li>
+			</ul>
+		</div>
+		<!-- 底部 -->
+		<div class="foot_productBrand">
+			<ul>
+				<li id="share_bottom"><img src="images/message.png" alt=""><div>分享</div></li>
+				<li><img src="images/shop.png" alt=""><div>购物车</div></li>
+				<li id="cart">加入购物车</li>
+				<li>马上购买</li>
+			</ul>		
+		</div>
+	</div>
+<!-- 加入购物车提醒,显示1.5秒后自动消失 -->
+<div class="layer_productBrand">
+	<div class="con_productBrand">
+		:)<br/>
+		已经在购物车等您啦
+	</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$(".layer_productBrand").hide();
+		$('#cart').click(function(event) {
+			/* Act on the event */
+			setTimeout('$(".layer_productBrand").slideDown(100)',0);
+			setTimeout('$(".layer_productBrand").hide()',1500);
+		});
+	})
+</script>
+</body>
+</html>

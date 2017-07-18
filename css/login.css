@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #EFEFF4;
+	font-family: "sans-serif";
+}
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+ul li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+textarea {  -webkit-appearance: none;}  
+input[type="button"]{ border-radius: 0; } 
+input{
+	outline: none;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font-size: 4vw;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	font-size: 4vw;
+}
+input:-ms-input-placeholder{
+	font-size: 4vw;
+}
+input::-webkit-input-placeholder{
+	font-size: 4vw;
+}
+/*头部*/
+.top_login{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	background: #F1F1F1;
+	border-bottom: 1px solid #CBCBCF;	
+}
+.top_login ul{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+}
+.top_login ul li{
+	float: left;
+}
+.back_login,.menu_login{
+	width: 10%;
+	text-align: center;
+}
+.back_login img,.menu_login img{
+	width:60%;
+}
+.top_login_title{
+	width: 80%;
+	text-align: center;
+	font-size: 4vw;
+}
+/*头部结束*/
+
+/*中间内容*/
+.content_login{
+	width: 100%;
+	margin: 1% auto;
+	height: auto;
+}
+.logo_login{
+	width: 100%;
+	text-align: center;
+	margin: 3% auto;
+}
+.form_info{
+	width: 100%;
+	margin: 0 auto;
+}
+.form_info ul{
+	width: 100%;
+	margin: 0 auto;
+}
+.form_info ul li{
+	width: 100%;
+	height: 47px;
+	line-height: 47px;
+	border-top: 1px solid #DBDBE0;
+	border-bottom: 1px solid #DBDBE0;
+	text-indent: 1em;
+}
+.form_info ul li div{
+	width: 22%;
+	float: left;
+	font-size: 4vw;
+	background: #fff;
+	height: 47px;
+}
+.form_info ul li input{
+	width: 78%;
+	float: left;
+	height: 47px;
+	border: none;
+	text-indent: 2em;
+	line-height: 47px;
+	font-size: 4vw;
+}
+.form_passwprd{
+	border-top: none !important;
+}
+.agree_login{
+	width: 92%;
+	margin: 4% auto;
+	font-size: 4vw;	
+	height: 50px;
+}
+.agree_login input{
+	width: 20px;
+	height: 20px;
+	background: #C4C4C4;
+	float: left;
+}
+.agree_text_login{
+	width: 50%;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 1em;
+}
+.login_login,.login_chat_login{
+	width: 92%;
+	margin:13% auto;
+}
+.agree_forget_login{
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.agree_forget_login a{
+	text-decoration: none;
+	color: #E90000;
+}
+.login_login input{
+	width: 100%;
+	background: #E90000;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 4vw;
+	color: #fff;
+}
+.login_chat_login input{
+	width: 100%;
+	background: #27AE60;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 4vw;
+	color: #fff;
+}
+.instruction_login{
+	width: 92%;
+	margin: 5% auto;
+	font-size: 4vw;
+	color: #aaa;
+}
+.instruction_login a{
+	font-size: 4vw;
+	color: #aaa;
+}
+.have_number{
+	width: 92%;
+	margin: 5% auto;
+	text-align: right;	
+}
+.have_number a{
+	font-size: 4vw;
+	color: #EA1E1F;
+	text-decoration: none;
+}
+/*遮罩*/
+.shade_login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #787878;
+    z-index: 9998;
+    opacity: 0.6;
+}
+.layer_login{ 
+    position: absolute;
+    z-index: 9999;
+    top: 30%;
+    left:17%;
+    width: 66%;
+    background: #F1F1F1;
+    border-radius: 5px;
+}
+.con_login{
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid #E7E7E8;
+    padding: 5% 0;
+}
+.error_login{
+	background: #F1F1F1;
+	width: 100%;
+	text-align: center;
+	border: none;
+	padding: 5% 0;
+	color: #EA0F0F;
+}
+/*中间内容结束*/
+
+/*底部开始*/
+.foot_login{
+
+}
+/*底部结束*/

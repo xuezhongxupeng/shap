@@ -1,0 +1,39 @@
+注册：
+register 注册
+weChatAlloewd  微信注册权限
+weChat 微信注册补充信息
+
+登录：
+login 登录
+forget  忘记密码
+reset 重置密码
+
+XX店铺首页：
+index 店铺首页
+newGoods 最新产品
+hotGoods 最热商品
+classify  商品分类二级
+
+用户管理：
+userManagement 用户中心
+addressManagement  地址管理 
+addAddress 添加地址表单
+editAddress 编辑地址
+
+商品详情页：
+productDetails 产品页_01
+productSpec 产品页_02
+productBrand 产品页_03
+
+购物车：
+cart 购物车列表
+cartEmpty 购物车空
+orderEmpty 订单结算无地址 （点击 支付订单 按钮弹出错误提示框）
+orderHave 订单结算有地址
+payment 订单支付
+paymentSuccess 订单支付成功
+
+我的订单：
+orderRecordEmpty 订单为空
+orderRecord 订单列表
+orderPayment 订单详情_已支付

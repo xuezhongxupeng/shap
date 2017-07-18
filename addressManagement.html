@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width height=device-height maximum-scale=1.0 user-scalable=no">
+	<title>地址管理</title>
+	<link rel="stylesheet" href="css/addressManagement.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<div class="top_addressManagement">
+			<ul>			
+				<li class="back_addressManagement"><img src="images/icon_back.png" alt=""></li>
+				<li class="top_addressManagement_title">地址管理</li>
+				<li class="menu_addressManagement"><img src="images/icon_choose.png" alt="" id="user"></li>
+			</ul>
+			<div class="hide_user">
+				<ul>
+
+					<!-- 隐藏部分 未登录用户时 -->
+					<li class="first">
+						<ul>
+							<li><a href="login.html">登录</a></li>
+							<li>/</li>
+							<li><a href="register.html">注册</a></li>
+						</ul>
+					</li>
+
+					<!-- 隐藏部分 登录之后 -->
+					<li class="first_after">
+						<ul>
+							<li><img src="images/not_logget.png" alt=""></li>
+							<li>nickname</li>
+						</ul>
+					</li>
+					<li><a href="userManagement.html">我的账号</a></li>
+					<li><a href="addressManagement.html">地址管理</a></li>
+					<li><a href="">帮助中心</a></li>
+					<li id="share">分享店铺</li>
+					<li class="last"><a href="">收藏店铺</a></li>
+				</ul>
+			</div>
+		</div>		
+		<!-- 中间内容 -->
+		<div class="content">
+			<div class="title_addressManagement">
+				<ul>
+					<li><a href="orderHave.html">我的订单</a></li>
+					<li class="title_active"><a href="addressManagement.html">地址管理</a></li>
+				</ul>
+			</div>	
+			<div class="person_address">
+				<div class="address_content">
+					<ul>
+						<li class="img_address"><img src="images/location.png" alt=""></li>
+						<li class="info_address">
+							<ul>
+								<li>XXX zhao</li>
+								<li>中山路长兴街12号，西王小区东三排，四单元</li>
+							</ul>
+						</li>
+						<li class="tel_address">18829389283</li>
+					</ul>				
+				</div>
+				<div class="operate_address">
+					<ul>
+						<li>
+							<div class="default_box">
+								<form action="">
+						            <input type="checkbox" checked><span>√</span>
+					            </form>
+					        </div>
+					        <div class="default_address">设为默认</div>
+						</li>
+						<li>
+							<form action="">
+								<input type="button" value="删除" class="delete_address">
+								<input type="button" value="编辑" class="edit_address">
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="person_address">
+				<div class="address_content">
+					<ul>
+						<li class="img_address"><img src="images/location.png" alt=""></li>
+						<li class="info_address">
+							<ul>
+								<li>XXX zhao</li>
+								<li>中山路长兴街12号，西王小区东三排，四单元</li>
+							</ul>
+						</li>
+						<li class="tel_address">18829389283</li>
+					</ul>				
+				</div>
+				<div class="operate_address">
+					<ul>
+						<li>
+							<div class="default_box">
+								<form action="">
+						            <input type="checkbox" checked><span>√</span>
+					            </form>
+					        </div>
+					        <div class="default_address">设为默认</div>
+						</li>
+						<li>
+							<form action="">
+								<input type="button" value="删除" class="delete_address">
+								<input type="button" value="编辑" class="edit_address">
+							</form>
+						</li>
+					</ul>
+				</div>				
+			</div>
+			<div class="new_address">
+					<a href="">&nbsp;&nbsp;✚&nbsp;&nbsp;新增地址</a>
+				</div>
+		</div>
+		<!-- 点击显示分享 -->
+		<div class="hide_share">
+			<ul>
+				<li><img src="images/wechat.png" alt=""></li>
+				<li><img src="images/3.png" alt=""></li>
+				<li><img src="images/4.png" alt=""></li>
+				<li><img src="images/5.png" alt=""></li>
+				<li><img src="images/6.png" alt=""></li>
+				<li><img src="images/1.png" alt=""></li>
+				<li><img src="images/2.png" alt=""></li>
+			</ul>
+		</div>
+		<!-- 底部 -->
+	</div>
+	<!-- 输出错误时提示 -->
+<div class="shade_addressManagement" style="display:none;"></div>
+<div class="layer_addressManagement" style="display:none;">
+	<div class="con_addressManagement">
+		:(<br/>
+		确定要删除吗？
+	</div>
+	<form action="" method="">		
+		<input type="button" value="Cancel" class="refuse_weChatAllowed">
+		<input type="button" value="Open" class="error_weChatAllowed">
+	</form>
+</div>
+</body>
+</html>

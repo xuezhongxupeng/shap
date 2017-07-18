@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #E0E0E0;
+	font-family: "sans-serif";
+}
+.wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+ul li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+input{
+	outline: none;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+textarea {  -webkit-appearance: none;}  
+input[type="button"]{ border-radius: 0; } 
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font-size: 4vw;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	font-size: 4vw;
+}
+input:-ms-input-placeholder{
+	font-size: 4vw;
+}
+input::-webkit-input-placeholder{
+	font-size: 4vw;
+}
+/*头部*/
+.top_payment{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+}
+.top_payment ul{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+}
+.top_payment ul li{
+	float: left;
+}
+.back_payment,.menu_payment{
+	width: 10%;
+	text-align: center;
+}
+.back_payment img,.menu_payment img{
+	width:60%;
+}
+.top_payment_title{
+	width: 70%;
+	text-align: center;
+	font-size: 4vw;
+}
+/*头部结束*/
+/*隐藏部分*/
+.hide_user{
+	width: 60%;
+	float: right;
+	background: #F1F1F1;
+	border-radius: 12px;
+	position: relative;
+	z-index: 11;
+	margin-top: -4%;
+}
+.hide_user ul{
+	width: 100%;
+}
+.hide_user ul>li{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #DCDCDE;
+}
+.hide_user ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	font-size: 4vw;
+}
+/*登录后*/
+.first_after{
+	height: 80px !important;
+	line-height: 80px !important;
+}
+.first_after ul{
+	width: 100%;
+	margin:0 auto;
+}
+.first_after ul>li{
+	width: 50%;
+	float: left;
+	height: 80px !important;
+	line-height: 80px !important;
+}
+.first_after ul>li img{
+	width: 60px;
+	margin-top: 10px;
+}
+.last{
+	border: none !important;
+}
+/*中间内容*/
+.content{
+	width: 100%;
+	margin: 0% auto;
+	height: auto;
+	position: absolute;
+	top: 40px;
+	border-top: 1px solid #CBCBCF;	
+}
+.content ul li{
+	width: 100%;
+	text-align: center;
+	height: 3em;
+	line-height: 3em;
+	margin-top: 10%;
+	font-size: 5vw;
+}
+.content ul li a{
+	display: block;
+	width: 43%;
+	margin: 0 auto;
+	background: #C4C4C4;
+	color: #000;
+	font-size: 5vw;
+	font-weight:500;
+	text-decoration: none;
+}
+/*中间内容结束*/
+/*分享*/
+.hide_share{
+	width: 100%;
+	background: #FAFAFA;
+	border-radius: 12px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	z-index: 11;
+}
+.hide_share ul li{
+	width: 25%;
+	float: left;
+}
+/*底部开始*/
+/*底部结束*/
